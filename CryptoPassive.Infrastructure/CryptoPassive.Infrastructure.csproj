@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CryptoPassive.Core\CryptoPassive.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.8" />
+      <PackageReference Include="Nethereum.Web3" Version="4.7.0" />
+      <PackageReference Include="QBitNinja.Client" Version="1.0.4" />
+      <PackageReference Include="SQLitePCLRaw.bundle_e_sqlcipher" Version="2.1.0" />
+    </ItemGroup>
+
+</Project>
